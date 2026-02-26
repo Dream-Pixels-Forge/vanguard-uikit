@@ -1,0 +1,33 @@
+# Source files (not needed in package)
+src/
+demo/
+docs/
+
+# Development
+node_modules/
+.git/
+.gitignore
+.claude/
+
+# Build tools
+build.js
+vite.config.js
+tailwind.config.js
+postcss.config.js
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db

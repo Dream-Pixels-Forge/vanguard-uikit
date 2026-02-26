@@ -1,15 +1,12 @@
 {
   "name": "vanguard-uikit",
   "version": "1.0.1",
-  "description": "A modern dark-themed UI component library based on the Vanguard Design System with glassmorphism, neuromorphism, and liquid glass aesthetics",
-  "main": "index.js",
-  "module": "vanguard-uikit.jsx",
-  "types": "index.d.ts",
+  "description": "A modern dark-themed UI component library with glassmorphism, neuromorphism, and liquid glass aesthetics",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "index.js",
-    "vanguard-uikit.jsx",
-    "index.d.ts",
-    "README.md"
+    "dist"
   ],
   "keywords": [
     "react",
@@ -18,17 +15,10 @@
     "vanguard",
     "dark-theme",
     "glassmorphism",
-    "neuromorphism",
-    "liquid-glass",
     "tailwind"
   ],
   "author": "Dream-Pixels-Forge",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Dream-Pixels-Forge/vanguard-uikit.git"
-  },
-  "homepage": "https://dream-pixels-forge.github.io/vanguard-uikit/",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",

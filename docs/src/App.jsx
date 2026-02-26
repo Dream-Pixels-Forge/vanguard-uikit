@@ -73,19 +73,26 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 px-4 md:px-8">
-        <div className="max-w-7xl mx-auto text-center">
+        <div className="max-w-7xl mx-auto">
           <FadeIn>
-            <Badge variant="blue" size="lg" className="mb-6">✨ v1.0.0 Now Available on npm</Badge>
-            <Heading level={1} className="text-5xl md:text-7xl lg:text-8xl mb-6">
-              Build Faster.<br />
-              <span className="gradient-text">Look Better.</span>
-            </Heading>
-            <Text size="xl" className="max-w-3xl mx-auto mb-10 text-white/60">
-              A modern dark-themed UI component library with glassmorphism, neuromorphism, and liquid glass aesthetics.
-            </Text>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <VanguardButton variant="accent" size="lg" icon={ArrowRight} onClick={() => document.getElementById('installation').scrollIntoView({ behavior: 'smooth' })}>Get Started</VanguardButton>
-              <VanguardButton variant="glass" size="lg" icon={Github} onClick={() => window.open('https://github.com/Dream-Pixels-Forge/vanguard-uikit', '_blank')}>View on GitHub</VanguardButton>
+            <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+              <div className="text-center md:text-left">
+                <Badge variant="blue" size="lg" className="mb-6 inline-block">✨ v1.0.1 Now Available on npm</Badge>
+                <Heading level={1} className="text-5xl md:text-7xl lg:text-8xl mb-6">
+                  Build Faster.<br />
+                  <span className="gradient-text">Look Better.</span>
+                </Heading>
+                <Text size="xl" className="max-w-2xl mx-auto md:mx-0 mb-10 text-white/60">
+                  A modern dark-themed UI component library with glassmorphism, neuromorphism, and liquid glass aesthetics.
+                </Text>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center mb-12">
+                  <VanguardButton variant="accent" size="lg" icon={ArrowRight} onClick={() => document.getElementById('installation').scrollIntoView({ behavior: 'smooth' })}>Get Started</VanguardButton>
+                  <VanguardButton variant="glass" size="lg" icon={Github} onClick={() => window.open('https://github.com/Dream-Pixels-Forge/vanguard-uikit', '_blank')}>View on GitHub</VanguardButton>
+                </div>
+              </div>
+              <div className="hidden md:block">
+                <img src="/hero.png" alt="Vanguard UI Kit Preview" className="w-full h-auto rounded-3xl shadow-2xl glow" />
+              </div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-4xl mx-auto">
               {stats.map((stat, i) => (
