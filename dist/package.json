@@ -1,6 +1,6 @@
 {
   "name": "vanguard-uikit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern dark-themed UI component library based on the Vanguard Design System with glassmorphism, neuromorphism, and liquid glass aesthetics",
   "main": "index.js",
   "module": "vanguard-uikit.jsx",

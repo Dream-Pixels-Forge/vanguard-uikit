@@ -1,7 +1,7 @@
 {
   "name": "vanguard-uikit",
-  "version": "1.0.0",
-  "description": "A modern dark-themed UI component library based on the Vanguard Design System",
+  "version": "1.0.1",
+  "description": "A modern dark-themed UI component library with glassmorphism, neuromorphism, and liquid glass aesthetics",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
