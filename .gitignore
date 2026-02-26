@@ -1,9 +1,32 @@
-node_modules
-dist
-.DS_Store
+# Dependencies
+node_modules/
+
+# Build output (keep dist/ for npm, ignore other build artifacts)
 *.local
 .env
 .env.local
 .env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
 .claude
 
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
