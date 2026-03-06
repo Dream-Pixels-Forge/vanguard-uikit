@@ -50,7 +50,7 @@ function App() {
   const stats = [
     { label: 'Components', value: '50+' },
     { label: 'Icons', value: '500+' },
-    { label: 'Version', value: '1.0.0' },
+    { label: 'Version', value: '1.0.1' },
     { label: 'License', value: 'MIT' }
   ];
 
